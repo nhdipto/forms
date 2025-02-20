@@ -1,0 +1,64 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Background */
+body {
+    background: linear-gradient(135deg, #334EAC, #D0E3FF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Box */
+.login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #7096D1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #334EAC;
+}
+
+.back-button {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 8px 15px;
+    width: fit-content;
+    background: #334EAC;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    background: #081F5C;
+}

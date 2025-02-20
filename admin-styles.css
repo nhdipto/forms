@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: #334EAC;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+}
+
+/* Admin Container */
+.admin-container {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grid Layout for Thumbnails */
+.grid-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+.grid-container h2{
+    background-color: grey;
+    color: aquamarine;
+    padding: 5px;
+    box-shadow: black;
+    border: #334EAC;
+    border-radius: 5px;
+    justify-items: flex-start;
+}
+
+/* Login Item */
+.login-item {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.login-item:hover {
+    transform: scale(1.05);
+}
+
+/* Thumbnail Images */
+.login-item img {
+    width: 120px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+/* Text Below Thumbnails */
+.login-item p {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    background: #334EAC;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

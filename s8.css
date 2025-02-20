@@ -1,0 +1,52 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Background */
+body {
+    background: #081F5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Neon Container */
+.neon-container {
+    background: black;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 0px 20px #00FFAA;
+    color: #00FFAA;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: black;
+    color: #00FFAA;
+    border: 1px solid #00FFAA;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #00FFAA;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px #00FFAA;
+}
